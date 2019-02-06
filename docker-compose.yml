@@ -11,7 +11,7 @@ services:
       - ./:/application:cached
 
   mysql:
-    image: mysql:5.7@sha256:c23e9bfe66eeffc990cf6bce4bb0e9c5c85eb908170f3b3dde3e9a12c5a91689
+    image: mysql:5.7@sha256:8c15b2612051244d0a2b6ceb6f9bf82ddc0e909555c1067c098e5f935e2751a7
     ports:
       - "3306:3306"
     environment:
